@@ -1,0 +1,24 @@
+.title{
+    font-style:italic;
+    font-weight: bold;
+    font-family:fantasy;
+    text-align:center;
+    background-color:lightgreen;
+    box-shadow: 3px 5px 10px lightpink;
+
+    /* 3px untuk offset-x (koordinat x)
+    5px untuk koordinat y
+    10px untuk blur */
+}
+p{
+    font-style:initial;
+    font-weight:lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.section{
+    margin-bottom: 20px; 
+    /* ini untuk jarak batas bawah untuk section berikutnya */
+    box-shadow: 3px 5px 10px lightslategray
+}
