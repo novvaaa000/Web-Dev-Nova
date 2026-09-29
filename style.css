@@ -1,4 +1,4 @@
-.title{
+/* .title{
     font-style:italic;
     font-weight: bold;
     font-family:fantasy;
@@ -6,9 +6,9 @@
     background-color:lightgreen;
     box-shadow: 3px 5px 10px lightpink;
 
-    /* 3px untuk offset-x (koordinat x)
+    3px untuk offset-x (koordinat x)
     5px untuk koordinat y
-    10px untuk blur */
+    10px untuk blur 
 }
 p{
     font-style:initial;
@@ -20,5 +20,64 @@ p{
 .section{
     margin-bottom: 20px; 
     /* ini untuk jarak batas bawah untuk section berikutnya */
-    box-shadow: 3px 5px 10px lightslategray
+    /* box-shadow: 3px 5px 10px lightslategray 
+} 
+
+*/
+/* Mengatur tampilan latar belakang halaman */
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color:whitesmoke;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px violet;
+    text-align: center;
+}
+
+.foto-profil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(0, 128, 255)
+}
+
+.nama {
+    color:darkslategray;
+    margin: 15px 0 5px 0;
+    
+}
+
+.state {
+    color: rgb(26, 114, 26);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: lightslategrey;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(119, 108, 7)8, 45, 3;
+    color: black;
+    text-decoration:none;
+    border-radius: 200px;
+    font-weight: bold;
 }
